@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<el-form :model="$1">
+  <el-form-item>$2</el-form-item>$0
+</el-form>
+]]></content>
+  <tabTrigger>elform</tabTrigger>
+  <scope>text.html.vue</scope>
+</snippet>

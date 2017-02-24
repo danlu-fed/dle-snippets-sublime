@@ -1,0 +1,13 @@
+<snippet>
+  <content><![CDATA[
+<el-dialog title="$1" v-model="$2">
+  $0
+  <span slot="footer">
+    <el-button size="small">取 消</el-button>
+    <el-button size="small" type="primary">确 定</el-button>
+  </span>
+</el-dialog>
+]]></content>
+  <tabTrigger>eldialog</tabTrigger>
+  <scope>text.html.vue</scope>
+</snippet>

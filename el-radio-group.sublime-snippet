@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<el-radio-group v-model="$1">
+  <el-radio :label="$2">$0</el-radio>
+</el-radio-group>
+]]></content>
+  <tabTrigger>elradiog</tabTrigger>
+  <scope>text.html.vue</scope>
+</snippet>

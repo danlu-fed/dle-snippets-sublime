@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<el-input-number v-model="$1" :min="$2" :max="$3"></el-input-number>$0
+]]></content>
+  <tabTrigger>elinumber</tabTrigger>
+  <scope>text.html.vue</scope>
+</snippet>

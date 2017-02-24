@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<el-button type="$1">$0</el-button>
+]]></content>
+  <tabTrigger>elb</tabTrigger>
+  <tabTrigger>el-b</tabTrigger>
+  <tabTrigger>el-button</tabTrigger>
+  <scope>text.html.vue</scope>
+</snippet>

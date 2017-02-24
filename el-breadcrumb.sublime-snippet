@@ -1,0 +1,10 @@
+<snippet>
+  <content><![CDATA[
+<el-breadcrumb class="dl-breadcrumb" separator="/">
+  <el-breadcrumb-item :to="{ path: '$1' }">$2</el-breadcrumb-item>
+  <el-breadcrumb-item>$3</el-breadcrumb-item>$0
+</el-breadcrumb>
+]]></content>
+  <tabTrigger>elbread</tabTrigger>
+  <scope>text.html.vue</scope>
+</snippet>

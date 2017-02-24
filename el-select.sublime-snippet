@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<el-select v-model="$1" placeholder="请选择">
+  <el-option :label="$2" :value="$3"></el-option>$0
+</el-select>
+]]></content>
+  <tabTrigger>elselect</tabTrigger>
+  <scope>text.html.vue</scope>
+</snippet>

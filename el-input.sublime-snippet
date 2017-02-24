@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<el-input v-model="${1}">${2}</el-input>
+]]></content>
+  <tabTrigger>elinput</tabTrigger>
+  <scope>text.html.vue</scope>
+</snippet>

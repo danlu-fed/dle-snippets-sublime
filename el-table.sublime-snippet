@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<el-table :data="$1" style="width: 100%">
+  <el-table-column prop="$2" label="$3" width="$4">$0</el-table-column>
+</el-table>
+]]></content>
+  <tabTrigger>eltable</tabTrigger>
+  <scope>text.html.vue</scope>
+</snippet>

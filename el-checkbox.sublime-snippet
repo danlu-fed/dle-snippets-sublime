@@ -1,0 +1,7 @@
+<snippet>
+  <content><![CDATA[
+<el-checkbox v-model="$1">$0</el-checkbox>
+]]></content>
+  <tabTrigger>elcheckbox</tabTrigger>
+  <scope>text.html.vue</scope>
+</snippet>

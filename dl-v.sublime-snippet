@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+<template>
+  <dl-container class="${1:namespace}">
+    $0
+  </dl-container>
+</template>
+
+<script>
+  export default {
+    name: '${2:${TM_FILENAME/(.+)\..+|.*/$1/:component_name}}',
+    data: function() {
+      return {
+        
+      }
+    }
+  }
+</script>
+
+<style lang="less">
+  .${1:namespace} {
+
+  }
+</style>
+]]></content>
+  <tabTrigger>dlv</tabTrigger>
+  <discription>dl Vue componten</discription>
+</snippet>
