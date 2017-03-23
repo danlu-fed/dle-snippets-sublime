@@ -1,43 +1,58 @@
-# 基于element代码补全
+# [Vue](http://vuejs.org/) + [Element](http://element.eleme.io/#/en-US) Snippets for Sublime Text
 
-目前所支持的代码提示：
+### Main
 
-dlv <!-- 主框架 -->
+* `dlc` - Vue component for dladmin
 
-elbutton <!-- 按钮 -->
+### Layout
 
-elcheckbox <!-- 多选框 -->
+* `elrow:xs` - size < 768 px
+* `elrow:sm` - size ≥ 768 px
+* `elrow:md` - size ≥ 992 px
+* `elrow:lg` - size ≥ 1200 px
 
-elcheckboxg <!-- 多选组 -->
+### Http Request
 
-elrow <!-- 行 -->
+*exist:*
 
-elcol <!-- 列 -->
+* `http:post` - Method of post
+* `http:get` - Method of get
+* `http:form` Method of post and dataType: Form Data
 
-elform <!-- 表单 -->
+*next:*
 
-elinput <!-- 输入框 -->
+* `http:put` - Method of put
+* `http:patch` - Method of patch
+* `http:delete` - Method of delete
 
-elinumber <!-- 计数器 -->
+*with global object:*
 
-elpager <!-- 分页 -->
+> just need to add the suffix "-g" , like this `http:post-g`
 
-elradio <!-- 单选按钮 -->
+### Component
 
-elradiog <!-- 单选按钮组 -->
+* `elbutton` - Element Button
+* `elcheckbox` - Element Checkbox
+* `elcheckboxg` - Element Checkbox Group
+* `elrow` - Element Row
+* `elcol` - Element Col
+* `elform` - Element Form
+* `elinput` - Element Input
+* `elinumber` - Element InputNumber
+* `elpager` - Element Pagination
+* `elradio` - Element Radio
+* `elradiog` - Element Radio Group
+* `elselect` - Element Select
+* `elslider` - Element Slider
+* `elswitch` - Element Switch
+* `eltable` - Element Table
+* `elbread` - Element Breadcrumb
+* `elbreadi` - Element Breadcrumb Item
+* `eldialog` - Element Dialog
 
-elselect <!-- 选择框 -->
+### Update
 
-elslider <!-- 滑动条 -->
+run `Package Control: Remove Package`
 
-elswitch <!-- 滑动开关 -->
+remove and install again
 
-eltable <!-- 表格 -->
-
-elbread <!-- 面包导航 -->
-
-elbreadi <!-- el-breadcrumb-item -->
-
-eldialog <!-- 基础弹窗 -->
-
-httppo <!-- post请求 -->

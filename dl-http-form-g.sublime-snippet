@@ -1,24 +1,26 @@
 <snippet>
   <content><![CDATA[
-this.\$http.post(url, data, options)
+Vue.http.post(url, data, {
+  emulateJSON:true
+})
 .then(({data,ok,statusText}) => {
   if (ok && !data.status) {
     // successful
     console.log(data)
   }else{
     // warning
-    this.\$message({
+    Vue.\$message({
       message: data.msg,
       type: 'warning'
     });
   }
 }).catch(err => {
   // error
-  this.\$message.error('哦，出现了一个错误，请联系管理员');
+  Vue.\$message.error('哦，出现了一个错误，请联系管理员');
   console.error(err)
 });
 ]]></content>
-  <tabTrigger>http:post</tabTrigger>
-  <discription>this.$http.post()</discription>
+  <tabTrigger>http:form-g</tabTrigger>
+  <discription>Vue.http.post()</discription>
   <scope>source.js</scope>
 </snippet>

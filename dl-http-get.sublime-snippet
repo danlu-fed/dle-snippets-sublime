@@ -1,6 +1,6 @@
 <snippet>
   <content><![CDATA[
-this.\$http.post(url, data, options)
+this.\$http.get(url, data, options)
 .then(({data,ok,statusText}) => {
   if (ok && !data.status) {
     // successful
@@ -18,7 +18,7 @@ this.\$http.post(url, data, options)
   console.error(err)
 });
 ]]></content>
-  <tabTrigger>http:post</tabTrigger>
-  <discription>this.$http.post()</discription>
+  <tabTrigger>http:get</tabTrigger>
+  <discription>this.$http.get()</discription>
   <scope>source.js</scope>
 </snippet>

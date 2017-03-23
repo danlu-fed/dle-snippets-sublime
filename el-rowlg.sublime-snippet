@@ -1,0 +1,9 @@
+<snippet>
+  <content><![CDATA[
+<el-row>
+  <el-col :lg="{span:$1}">$2</el-col>$0
+</el-row>
+]]></content>
+  <tabTrigger>elrow:lg</tabTrigger>
+  <scope>text.html.vue</scope>
+</snippet>

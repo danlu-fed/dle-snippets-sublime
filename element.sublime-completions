@@ -1,8 +1,0 @@
-{
-  "scope": "text.html",
-  "completions":[
-    { "trigger": "elrow", "contents": "<el-row>$1</el-row>" },
-    { "trigger": "elcol", "contents": "<el-col :span=\"$1\">$0</el-col>" },
-    { "trigger": "elinput,eli", "contents": "<el-input v-model=\"$1\">$2</el-input>" }
-  ]
-}

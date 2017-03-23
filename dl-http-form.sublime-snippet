@@ -1,6 +1,8 @@
 <snippet>
   <content><![CDATA[
-this.\$http.post(url, data, options)
+this.\$http.post(url, data, {
+  emulateJSON:true
+})
 .then(({data,ok,statusText}) => {
   if (ok && !data.status) {
     // successful
@@ -18,7 +20,7 @@ this.\$http.post(url, data, options)
   console.error(err)
 });
 ]]></content>
-  <tabTrigger>http:post</tabTrigger>
+  <tabTrigger>http:form</tabTrigger>
   <discription>this.$http.post()</discription>
   <scope>source.js</scope>
 </snippet>

@@ -23,6 +23,7 @@
   }
 </style>
 ]]></content>
-  <tabTrigger>dlv</tabTrigger>
+  <tabTrigger>dlc</tabTrigger>
+  <scope>text.html.vue</scope>
   <discription>dl Vue componten</discription>
 </snippet>
